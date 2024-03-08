@@ -1,6 +1,6 @@
-# Express-GitHub-Deploy
+# React-GitHub-Deploy
 
-Express-GitHub-Deploy is a TypeScript project that allows you to deploy GitHub repositories dynamically using Express.
+React-GitHub-Deploy is a TypeScript project that allows you to deploy GitHub repositories dynamically using Express.
 
 ## Installation
 
@@ -18,7 +18,7 @@ Adjust configuration options in the `.env` file located at the root of your proj
 
 - **HOST:** The base URL for your server. Example: `HOST=http://localhost`
 
-These variables are essential for the correct operation of your Express-GitHub-Deploy project. Adjust them according to your project's needs.
+These variables are essential for the correct operation of your React-GitHub-Deploy project. Adjust them according to your project's needs.
 
 ## Scripts
 
