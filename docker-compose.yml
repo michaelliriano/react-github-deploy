@@ -7,10 +7,4 @@ services:
       - "${PORT}:${PORT}"
     environment:
       - PORT=${PORT}
-      - HOST=http://localhost
-    depends_on:
-      - mongodb
-  mongodb:
-    image: mongo
-    ports:
-      - "27017:27017"
+      - HOST=${HOST}
