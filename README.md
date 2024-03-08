@@ -43,14 +43,14 @@ pnpm build
 - **pnpm deploy:** Deploy the Express server with Docker & Docker-Compose.
   
 ```bash
-pnpm build
+pnpm deploy
 ```
 
 
 ## Project Structure
 
-- **src/:** Contains the source code of your TypeScript project.
-- **public/:** Public assets (if applicable).
+- **src/:** Contains the source of the project.
+- **public/:** React static files are organized here.
 - **dist/:** Output directory for compiled TypeScript code.
 - **.env:** Environment variables configuration.
 
