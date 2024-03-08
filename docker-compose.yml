@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - "${PORT}:${PORT}"
+    environment:
+      - PORT=${PORT}
+      - HOST=http://localhost
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo
+    ports:
+      - "27017:27017"
