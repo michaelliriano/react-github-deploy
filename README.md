@@ -7,7 +7,7 @@ Express-GitHub-Deploy is a TypeScript project that allows you to deploy GitHub r
 Ensure you have Node.js and pnpm installed. Then, run:
 
 ```bash
-pnpm install express-github-deploy
+pnpm install
 ```
 
 ## Configuration
